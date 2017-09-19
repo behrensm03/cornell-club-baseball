@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Michael Behrens">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.map">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/bearlogo.png">
+    <title>Cornell University Club Baseball</title>
+</head>
+    
+<body class="">
+    
+    
+    <nav class="navbar navbar-custom navbar-fixed-top center" role="navigation" id="nav">
+        <div class="container navbar-inner">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav thenavbar">
+                    <li class="active"><a href="index.html" class="smoothScroll">Home</a></li>
+                    <li><a href="index.html" class="smoothScroll">About US</a></li>
+                    <li><a href="board.html" class="smoothScroll">Board</a></li>
+                    <li><a href="roster.html" class="smoothScroll">Roster</a></li>
+                    <li><a href="#top" class="smoothScroll">Results</a></li>
+                    <li><a href="contact.html" class="smoothScroll">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+    <div id="about">
+        <div class="row">
+            <div class="col-sm-12 abouttitle">
+                Results
+            </div>
+        </div>
+        
+        <div class="row resultstable">
+            <div class="col-sm-6 col-sm-offset-3">
+                <table>
+                    <tr>
+                        <td class="theader">
+                            Date
+                        </td>
+                        <td class="theader">
+                            Opponent
+                        </td>
+                        <td class="theader">
+                            Result
+                        </td>
+                        <td class="theader">
+                            Score
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9/16
+                        </td>
+                        <td>
+                            Ithaca College
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            7-6
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9/16
+                        </td>
+                        <td>
+                            Ithaca College
+                        </td>
+                        <td>
+                            L
+                        </td>
+                        <td>
+                            8-7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            9/17
+                        </td>
+                        <td>
+                            Ithaca College
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            16-3
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12 abouttitle">
+                Player Stats - Batting
+            </div>
+        </div>
+        
+        <div class="row resultstable">
+            <div class="col-sm-10 col-sm-offset-1">
+                <table>
+                    <tr>
+                        <td class="theader">
+                            Player
+                        </td>
+                        <td class="theader">
+                            AB
+                        </td>
+                        <td class="theader">
+                            PA
+                        </td>
+                        <td class="theader">
+                            H
+                        </td>
+                        <td class="theader">
+                            AVG
+                        </td>
+                        <td class="theader">
+                            2B
+                        </td>
+                        <td class="theader">
+                            3B
+                        </td>
+                        <td class="theader">
+                            HR
+                        </td>
+                        <td class="theader">
+                            OBP
+                        </td>
+                        <td class="theader">
+                            RBI
+                        </td>
+                        <td class="theader">
+                            R
+                        </td>
+                        <td class="theader">
+                            BB
+                        </td>
+                        <td class="theader">
+                            SO
+                        </td>
+                        <td class="theader">
+                            SLG
+                        </td>
+                        <td class="theader">
+                            OPS
+                        </td>
+                        <td class="theader">
+                            SB
+                        </td>
+                        <td class="theader">
+                            CS
+                        </td>
+                        <td class="theader">
+                            IBB
+                        </td>
+                        <td class="theader">
+                            HBP
+                        </td>
+                        <td class="theader">
+                            SAC-F
+                        </td>
+                        <td class="theader">
+                            SAC-B
+                        </td>
+                        <td class="theader">
+                            TB
+                        </td>
+                        <td class="theader">
+                            XBH
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="AaronNeeckname">
+                            Aaron Neeck
+                        </td>
+                        <td id="AaronNeeckab"></td>
+                        <td id="AaronNeeckpa"></td>
+                        <td id="AaronNeeckh"></td>
+                        <td id="AaronNeeckavg"></td>
+                        <td id="AaronNeeckdouble"></td>
+                        <td id="AaronNeecktriple"></td>
+                        <td id="AaronNeeckhr"></td>
+                        <td id="AaronNeeckobp"></td>
+                        <td id="AaronNeeckrbi"></td>
+                        <td id="AaronNeeckr"></td>
+                        <td id="AaronNeeckbb"></td>
+                        <td id="AaronNeeckso"></td>
+                        <td id="AaronNeeckslg"></td>
+                        <td id="AaronNeeckops"></td>
+                        <td id="AaronNeecksb"></td>
+                        <td id="AaronNeeckcs"></td>
+                        <td id="AaronNeeckibb"></td>
+                        <td id="AaronNeeckhbp"></td>
+                        <td id="AaronNeecksacf"></td>
+                        <td id="AaronNeecksacb"></td>
+                        <td id="AaronNeecktb"></td>
+                        <td id="AaronNeeckxbh"></td>
+                    </tr>
+                    <tr>
+                        <td id="AlexTorpeyname">
+                            Alex Torpey
+                        </td>
+                        <td id="AlexTorpeyab"></td>
+                        <td id="AlexTorpeypa"></td>
+                        <td id="AlexTorpeyh"></td>
+                        <td id="AlexTorpeyavg"></td>
+                        <td id="AlexTorpeydouble"></td>
+                        <td id="AlexTorpeytriple"></td>
+                        <td id="AlexTorpeyhr"></td>
+                        <td id="AlexTorpeyobp"></td>
+                        <td id="AlexTorpeyrbi"></td>
+                        <td id="AlexTorpeyr"></td>
+                        <td id="AlexTorpeybb"></td>
+                        <td id="AlexTorpeyso"></td>
+                        <td id="AlexTorpeyslg"></td>
+                        <td id="AlexTorpeyops"></td>
+                        <td id="AlexTorpeysb"></td>
+                        <td id="AlexTorpeycs"></td>
+                        <td id="AlexTorpeyibb"></td>
+                        <td id="AlexTorpeyhbp"></td>
+                        <td id="AlexTorpeysacf"></td>
+                        <td id="AlexTorpeysacb"></td>
+                        <td id="AlexTorpeytb"></td>
+                        <td id="AlexTorpeyxbh"></td>
+                    </tr>
+                    <!--
+                    <tr>
+                        <td id="name">
+                            Alex Torpey
+                        </td>
+                        <td id="ab"></td>
+                        <td id="pa"></td>
+                        <td id="h"></td>
+                        <td id="avg"></td>
+                        <td id="double"></td>
+                        <td id="triple"></td>
+                        <td id="hr"></td>
+                        <td id="obp"></td>
+                        <td id="rbi"></td>
+                        <td id="r"></td>
+                        <td id="bb"></td>
+                        <td id="so"></td>
+                        <td id="slg"></td>
+                        <td id="ops"></td>
+                        <td id="sb"></td>
+                        <td id="cs"></td>
+                        <td id="ibb"></td>
+                        <td id="hbp"></td>
+                        <td id="sacf"></td>
+                        <td id="sacb"></td>
+                        <td id="tb"></td>
+                        <td id="xbh"></td>
+                    </tr>
+                    -->
+                    <tr>
+                        <td id="name">
+                            Andrew Greene
+                        </td>
+                        <td id="AndrewGreeneab"></td>
+                        <td id="AndrewGreenepa"></td>
+                        <td id="AndrewGreeneh"></td>
+                        <td id="AndrewGreeneavg"></td>
+                        <td id="AndrewGreenedouble"></td>
+                        <td id="AndrewGreenetriple"></td>
+                        <td id="AndrewGreenehr"></td>
+                        <td id="AndrewGreeneobp"></td>
+                        <td id="AndrewGreenerbi"></td>
+                        <td id="AndrewGreener"></td>
+                        <td id="AndrewGreenebb"></td>
+                        <td id="AndrewGreeneso"></td>
+                        <td id="AndrewGreeneslg"></td>
+                        <td id="AndrewGreeneops"></td>
+                        <td id="AndrewGreenesb"></td>
+                        <td id="AndrewGreenecs"></td>
+                        <td id="AndrewGreeneibb"></td>
+                        <td id="AndrewGreenehbp"></td>
+                        <td id="AndrewGreenesacf"></td>
+                        <td id="AndrewGreenesacb"></td>
+                        <td id="AndrewGreenetb"></td>
+                        <td id="AndrewGreenexbh"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-sm-12 abouttitle">
+                Player Stats - Pitching
+            </div>
+        </div>
+        
+        <div class="row resultstable" id="pitchingstatstable">
+            <div class="col-sm-10 col-sm-offset-1">
+                <table>
+                    <tr>
+                        <td class="theader">
+                            Player
+                        </td>
+                        <td class="theader">
+                            W
+                        </td>
+                        <td class="theader">
+                            L
+                        </td>
+                        <td class="theader">
+                            ERA
+                        </td>
+                        <td class="theader">
+                            G
+                        </td>
+                        <td class="theader">
+                            GS
+                        </td>
+                        <td class="theader">
+                            CG
+                        </td>
+                        <td class="theader">
+                            SV
+                        </td>
+                        <td class="theader">
+                            SVO
+                        </td>
+                        <td class="theader">
+                            IP
+                        </td>
+                        <td class="theader">
+                            H
+                        </td>
+                        <td class="theader">
+                            R
+                        </td>
+                        <td class="theader">
+                            ER
+                        </td>
+                        <td class="theader">
+                            HR
+                        </td>
+                        <td class="theader">
+                            BB
+                        </td>
+                        <td class="theader">
+                            SO
+                        </td>
+                        <td class="theader">
+                            WHIP
+                        </td>
+                        <td class="theader">
+                            SHO
+                        </td>
+                        <td class="theader">
+                            HBP
+                        </td>
+                        <td class="theader">
+                            IBB
+                        </td>
+                        <td class="theader">
+                            WP
+                        </td>
+                        <td class="theader">
+                            WIN%
+                        </td>
+                        <td class="theader">
+                            K/9
+                        </td>
+                        <td class="theader">
+                            K/BB
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+        
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/stats.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+</html>
