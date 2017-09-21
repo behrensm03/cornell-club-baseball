@@ -194,3 +194,46 @@ th,tr,td {
 #pitchingstatstable {
     padding-bottom: 100px;
 }
+
+
+.contain {
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.dummy {
+    margin-top: 100%;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../../img/rosterhs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.element:hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../../img/rosteraction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.indexlogo {
+    width: 100%;
+    max-width: 150px;
+    padding-top: 50px;
+}
