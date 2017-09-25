@@ -143,3 +143,58 @@ document.getElementById("BrettOConnorwhip").innerHTML = CalcWhip(BrettOConnorp[9
 document.getElementById("BrettOConnorwinpercent").innerHTML = CalcWinpercent(BrettOConnorp[0], BrettOConnorp[1]);
 document.getElementById("BrettOConnorkper9").innerHTML = CalcKper9(BrettOConnorp[14], BrettOConnorp[7]);
 document.getElementById("BrettOConnorkperbb").innerHTML = CalcKperBB(BrettOConnorp[14],BrettOConnorp[13]);
+
+
+
+
+
+
+
+
+
+
+var EricBohrerp = [
+    1, /* W                 0*/
+    0, /* L                 1*/
+    1, /* G                 2*/
+    0, /* GS                3*/
+    0, /* CG                4*/
+    0, /* SV                5*/
+    0, /* SVO               6*/
+    1, /* IP decimal        7*/
+    1, /* IP clean          8*/
+    0, /* H                 9*/
+    0, /* R                 10*/
+    0, /* ER                11*/
+    0, /* HR                12*/
+    0, /* BB                13*/
+    1, /* SO                14*/
+    0, /* SHO               15*/
+    1, /* HBP               16*/
+    0, /* IBB               17*/
+    0, /* WP                18*/
+]
+
+document.getElementById("EricBohrerw").innerHTML = EricBohrerp[0];
+document.getElementById("EricBohrerl").innerHTML = EricBohrerp[1];
+document.getElementById("EricBohrerg").innerHTML = EricBohrerp[2];
+document.getElementById("EricBohrergs").innerHTML = EricBohrerp[3];
+document.getElementById("EricBohrercg").innerHTML = EricBohrerp[4];
+document.getElementById("EricBohrersv").innerHTML = EricBohrerp[5];
+document.getElementById("EricBohrersvo").innerHTML = EricBohrerp[6];
+document.getElementById("EricBohrerip").innerHTML = EricBohrerp[8];
+document.getElementById("EricBohrerph").innerHTML = EricBohrerp[9];
+document.getElementById("EricBohrerpr").innerHTML = EricBohrerp[10];
+document.getElementById("EricBohrerer").innerHTML = EricBohrerp[11];
+document.getElementById("EricBohrerphr").innerHTML = EricBohrerp[12];
+document.getElementById("EricBohrerpbb").innerHTML = EricBohrerp[13];
+document.getElementById("EricBohrerpso").innerHTML = EricBohrerp[14];
+document.getElementById("EricBohrersho").innerHTML = EricBohrerp[15];
+document.getElementById("EricBohrerphbp").innerHTML = EricBohrerp[16];
+document.getElementById("EricBohrerpibb").innerHTML = EricBohrerp[17];
+document.getElementById("EricBohrerwp").innerHTML = EricBohrerp[18];
+document.getElementById("EricBohrerera").innerHTML = CalcEra(EricBohrerp[11],EricBohrerp[7]);
+document.getElementById("EricBohrerwhip").innerHTML = CalcWhip(EricBohrerp[9],EricBohrerp[13],EricBohrerp[7]);
+document.getElementById("EricBohrerwinpercent").innerHTML = CalcWinpercent(EricBohrerp[0], EricBohrerp[1]);
+document.getElementById("EricBohrerkper9").innerHTML = CalcKper9(EricBohrerp[14], EricBohrerp[7]);
+document.getElementById("EricBohrerkperbb").innerHTML = CalcKperBB(EricBohrerp[14],EricBohrerp[13]);

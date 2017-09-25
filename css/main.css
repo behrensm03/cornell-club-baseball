@@ -136,6 +136,14 @@ body {
 	font-weight: 200;
 }
 
+#results {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+
 .abouttitle {
     padding-top: 100px;
     font-size: 50px;
@@ -236,4 +244,17 @@ th,tr,td {
     width: 100%;
     max-width: 150px;
     padding-top: 50px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #D95252;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footerelement {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
