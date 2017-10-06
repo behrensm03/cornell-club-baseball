@@ -32,7 +32,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: #666666;
+    color: white;
 }
 
 a:active {
@@ -41,11 +41,11 @@ a:active {
         
 a { 
 	text-decoration: none; 
-	-webkit-transition: background-color .5s linear, color .5s linear;
-	-moz-transition: background-color .5s linear, color .5s linear;
-	-o-transition: background-color .5s linear, color .5s linear;
-	-ms-transition: background-color .5s linear, color .5s linear;
-	transition: background-color .5s linear, color .5s linear;
+	-webkit-transition: background-color 1s linear, color 1s linear;
+	-moz-transition: background-color 1s linear, color 1s linear;
+	-o-transition: background-color 1s linear, color 1s linear;
+	-ms-transition: background-color 1s linear, color 1s linear;
+	transition: background-color 1s linear, color 1s linear;
     transition-timing-function: linear;
     -webkit-transition-timing-function: linear;
 }
@@ -66,12 +66,12 @@ a {
             </div>
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav thenavbar">
-                    <li class="active"><a href="index.html" class="smoothScroll">Home</a></li>
-                    <li><a href="index.html" class="smoothScroll">About US</a></li>
-                    <li><a href="board.html" class="smoothScroll">Board</a></li>
-                    <li><a href="roster.html" class="smoothScroll">Roster</a></li>
-                    <li><a href="#results" class="smoothScroll">Results</a></li>
-                    <li><a href="#thefooter" class="smoothScroll">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About US</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="roster.html">Roster</a></li>
+                    <li><a href="#results">Results</a></li>
+                    <li><a href="#thefooter">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -1570,8 +1570,8 @@ a {
                 </a>
             </div>
             <div class="col-sm-2 footerelement">
-                <i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i><br>
-                @CUClubBaseball
+                <span class="snap"><i class="fa fa-snapchat-ghost fa-2x" aria-hidden="true"></i><br>
+                    @CUClubBaseball</span>
             </div>
         </div>
     </footer>
@@ -1583,11 +1583,17 @@ a {
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
     <script src="js/wow.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/offensivestats.js"></script>
     <script src="js/pitchingstats.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/smooth-scroll.polyfills.js"></script>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     <script>
     new WOW().init();
     </script>

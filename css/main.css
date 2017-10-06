@@ -258,3 +258,12 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.snap {
+    transition: 1s linear;
+}
+
+.snap:hover {
+    color: white;
+    transition: 1s linear;
+}
