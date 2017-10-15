@@ -102,7 +102,7 @@ document.getElementById("AaronNeeckxbh").innerHTML = CalcXbh(AaronNeeck[2],Aaron
 
 
 var AlexTorpey = [
-    4, /* ab            0*/
+    7, /* ab            0*/
     3, /* h             1*/
     1, /* double        2*/
     0, /* triple        3*/
@@ -110,7 +110,7 @@ var AlexTorpey = [
     2, /* rbi           5*/
     2, /* r             6*/
     0, /* bb            7*/
-    0, /* so            8*/
+    1, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -154,19 +154,19 @@ document.getElementById("AlexTorpeyxbh").innerHTML = CalcXbh(AlexTorpey[2],AlexT
 
 
 var AndrewGreene = [
-    4, /* ab            0*/
-    1, /* h             1*/
+    7, /* ab            0*/
+    2, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     2, /* rbi           5*/
     0, /* r             6*/
     0, /* bb            7*/
-    1, /* so            8*/
+    2, /* so            8*/
     1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
-    1, /* hbp           12*/
+    2, /* hbp           12*/
     0, /* sacf          13*/
     0, /* sacb          14*/
 ]
@@ -196,20 +196,29 @@ document.getElementById("AndrewGreenesacb").innerHTML = AndrewGreene[14];
 document.getElementById("AndrewGreenetb").innerHTML = CalcTb(AndrewGreenesingle,AndrewGreene[2],AndrewGreene[3],AndrewGreene[4]);
 document.getElementById("AndrewGreenexbh").innerHTML = CalcXbh(AndrewGreene[2],AndrewGreene[3],AndrewGreene[4]);
 
+
+
+
+
+
+
+
+
+
 var AnthonyCharles = [
-    2, /* ab            0*/
-    2, /* h             1*/
+    9, /* ab            0*/
+    5, /* h             1*/
     0, /* double        2*/
     1, /* triple        3*/
     0, /* hr            4*/
-    1, /* rbi           5*/
+    3, /* rbi           5*/
     2, /* r             6*/
     0, /* bb            7*/
     0, /* so            8*/
-    0, /* sb            9*/
+    1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
-    2, /* hbp           12*/
+    3, /* hbp           12*/
     1, /* sacf          13*/
     0, /* sacb          14*/
 ]
@@ -249,15 +258,15 @@ document.getElementById("AnthonyCharlesxbh").innerHTML = CalcXbh(AnthonyCharles[
 
 
 var BrandonReyes = [
-    7, /* ab            0*/
-    2, /* h             1*/
-    0, /* double        2*/
+    15, /* ab            0*/
+    6, /* h             1*/
+    1, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
-    2, /* rbi           5*/
-    0, /* r             6*/
+    3, /* rbi           5*/
+    1, /* r             6*/
     0, /* bb            7*/
-    2, /* so            8*/
+    4, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -405,16 +414,16 @@ document.getElementById("ConradMcCarthyxbh").innerHTML = CalcXbh(ConradMcCarthy[
 
 
 var EricBohrer = [
-    4, /* ab            0*/
-    1, /* h             1*/
+    8, /* ab            0*/
+    2, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
-    0, /* rbi           5*/
-    0, /* r             6*/
-    3, /* bb            7*/
-    0, /* so            8*/
-    0, /* sb            9*/
+    1, /* rbi           5*/
+    1, /* r             6*/
+    5, /* bb            7*/
+    1, /* so            8*/
+    1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
     0, /* hbp           12*/
@@ -457,15 +466,15 @@ document.getElementById("EricBohrerxbh").innerHTML = CalcXbh(EricBohrer[2],EricB
 
 
 var FernandoGil = [
-    4, /* ab            0*/
+    6, /* ab            0*/
     1, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     0, /* rbi           5*/
     0, /* r             6*/
-    1, /* bb            7*/
-    0, /* so            8*/
+    2, /* bb            7*/
+    2, /* so            8*/
     1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -665,16 +674,16 @@ document.getElementById("JackBronskyxbh").innerHTML = CalcXbh(JackBronsky[2],Jac
 
 
 var JamesKim = [
-    0, /* ab            0*/
-    0, /* h             1*/
+    9, /* ab            0*/
+    1, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     0, /* rbi           5*/
-    0, /* r             6*/
-    0, /* bb            7*/
-    0, /* so            8*/
-    0, /* sb            9*/
+    1, /* r             6*/
+    1, /* bb            7*/
+    4, /* so            8*/
+    1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
     0, /* hbp           12*/
@@ -717,13 +726,13 @@ document.getElementById("JamesKimxbh").innerHTML = CalcXbh(JamesKim[2],JamesKim[
 
 
 var JasonShandler = [
-    3, /* ab            0*/
-    1, /* h             1*/
-    0, /* double        2*/
+    10, /* ab            0*/
+    6, /* h             1*/
+    1, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     0, /* rbi           5*/
-    2, /* r             6*/
+    3, /* r             6*/
     0, /* bb            7*/
     0, /* so            8*/
     2, /* sb            9*/
@@ -821,16 +830,16 @@ document.getElementById("JimmyGroarkxbh").innerHTML = CalcXbh(JimmyGroark[2],Jim
 
 
 var JoeyWelsh = [
-    3, /* ab            0*/
-    1, /* h             1*/
+    8, /* ab            0*/
+    2, /* h             1*/
     1, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     1, /* rbi           5*/
-    3, /* r             6*/
+    4, /* r             6*/
     2, /* bb            7*/
-    1, /* so            8*/
-    0, /* sb            9*/
+    3, /* so            8*/
+    1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
     0, /* hbp           12*/
@@ -873,15 +882,15 @@ document.getElementById("JoeyWelshxbh").innerHTML = CalcXbh(JoeyWelsh[2],JoeyWel
 
 
 var JordanGorelick = [
-    5, /* ab            0*/
-    2, /* h             1*/
+    12, /* ab            0*/
+    4, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     1, /* rbi           5*/
     1, /* r             6*/
     1, /* bb            7*/
-    0, /* so            8*/
+    2, /* so            8*/
     0, /* sb            9*/
     1, /* cs            10*/
     0, /* ibb           11*/
@@ -925,16 +934,16 @@ document.getElementById("JordanGorelickxbh").innerHTML = CalcXbh(JordanGorelick[
 
 
 var JoshSayre = [
-    5, /* ab            0*/
+    9, /* ab            0*/
     2, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     1, /* rbi           5*/
-    0, /* r             6*/
+    1, /* r             6*/
     1, /* bb            7*/
-    1, /* so            8*/
-    0, /* sb            9*/
+    2, /* so            8*/
+    1, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
     0, /* hbp           12*/
@@ -1081,15 +1090,15 @@ document.getElementById("MarkJonesxbh").innerHTML = CalcXbh(MarkJones[2],MarkJon
 
 
 var MichaelBehrens = [
-    2, /* ab            0*/
-    1, /* h             1*/
-    1, /* double        2*/
+    8, /* ab            0*/
+    2, /* h             1*/
+    2, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     0, /* rbi           5*/
     3, /* r             6*/
-    1, /* bb            7*/
-    0, /* so            8*/
+    2, /* bb            7*/
+    1, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -1185,7 +1194,7 @@ document.getElementById("MikeFariasxbh").innerHTML = CalcXbh(MikeFarias[2],MikeF
 
 
 var MikeMaola = [
-    4, /* ab            0*/
+    8, /* ab            0*/
     1, /* h             1*/
     1, /* double        2*/
     0, /* triple        3*/
@@ -1193,7 +1202,7 @@ var MikeMaola = [
     0, /* rbi           5*/
     0, /* r             6*/
     1, /* bb            7*/
-    1, /* so            8*/
+    2, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -1237,19 +1246,19 @@ document.getElementById("MikeMaolaxbh").innerHTML = CalcXbh(MikeMaola[2],MikeMao
 
 
 var NateBuchwald = [
-    6, /* ab            0*/
+    14, /* ab            0*/
     3, /* h             1*/
     1, /* double        2*/
     1, /* triple        3*/
     0, /* hr            4*/
     2, /* rbi           5*/
-    3, /* r             6*/
+    4, /* r             6*/
     1, /* bb            7*/
-    3, /* so            8*/
+    7, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
-    0, /* hbp           12*/
+    1, /* hbp           12*/
     0, /* sacf          13*/
     0, /* sacb          14*/
 ]
@@ -1289,7 +1298,7 @@ document.getElementById("NateBuchwaldxbh").innerHTML = CalcXbh(NateBuchwald[2],N
 
 
 var NickVota = [
-    1, /* ab            0*/
+    3, /* ab            0*/
     0, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
@@ -1297,7 +1306,7 @@ var NickVota = [
     0, /* rbi           5*/
     0, /* r             6*/
     0, /* bb            7*/
-    1, /* so            8*/
+    3, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -1341,20 +1350,20 @@ document.getElementById("NickVotaxbh").innerHTML = CalcXbh(NickVota[2],NickVota[
 
 
 var SamRodriguez = [
-    7, /* ab            0*/
+    11, /* ab            0*/
     5, /* h             1*/
     1, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
-    5, /* rbi           5*/
+    6, /* rbi           5*/
     3, /* r             6*/
     0, /* bb            7*/
     1, /* so            8*/
-    2, /* sb            9*/
+    3, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
     0, /* hbp           12*/
-    0, /* sacf          13*/
+    1, /* sacf          13*/
     0, /* sacb          14*/
 ]
 
@@ -1445,7 +1454,7 @@ document.getElementById("ShailenDoshixbh").innerHTML = CalcXbh(ShailenDoshi[2],S
 
 
 var ShanDhaliwal = [
-    3, /* ab            0*/
+    6, /* ab            0*/
     1, /* h             1*/
     1, /* double        2*/
     0, /* triple        3*/
@@ -1453,7 +1462,7 @@ var ShanDhaliwal = [
     1, /* rbi           5*/
     2, /* r             6*/
     0, /* bb            7*/
-    0, /* so            8*/
+    3, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
@@ -1497,19 +1506,19 @@ document.getElementById("ShanDhaliwalxbh").innerHTML = CalcXbh(ShanDhaliwal[2],S
 
 
 var StefanoPriante = [
-    4, /* ab            0*/
-    0, /* h             1*/
+    7, /* ab            0*/
+    1, /* h             1*/
     0, /* double        2*/
     0, /* triple        3*/
     0, /* hr            4*/
     3, /* rbi           5*/
     0, /* r             6*/
-    1, /* bb            7*/
-    1, /* so            8*/
+    2, /* bb            7*/
+    2, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
-    0, /* hbp           12*/
+    1, /* hbp           12*/
     1, /* sacf          13*/
     0, /* sacb          14*/
 ]
@@ -1549,19 +1558,19 @@ document.getElementById("StefanoPriantexbh").innerHTML = CalcXbh(StefanoPriante[
 
 
 var TomKessler = [
-    3, /* ab            0*/
-    2, /* h             1*/
-    0, /* double        2*/
+    7, /* ab            0*/
+    3, /* h             1*/
+    1, /* double        2*/
     1, /* triple        3*/
     0, /* hr            4*/
     1, /* rbi           5*/
-    2, /* r             6*/
+    3, /* r             6*/
     0, /* bb            7*/
     0, /* so            8*/
     0, /* sb            9*/
     0, /* cs            10*/
     0, /* ibb           11*/
-    0, /* hbp           12*/
+    1, /* hbp           12*/
     0, /* sacf          13*/
     0, /* sacb          14*/
 ]
