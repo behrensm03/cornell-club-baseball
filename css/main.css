@@ -124,7 +124,7 @@ body {
 }
 
 .buttoncontainer {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 #about {
@@ -267,7 +267,7 @@ footer {
 }
 
 #AaronNeeckroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -325,7 +325,7 @@ footer {
 
 #ConradMcCarthyroster {
     transition: 0.5s linear;
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
 }
 
 #ConradMcCarthyroster:hover {
@@ -344,12 +344,12 @@ footer {
 }
 
 #FernandoGilroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
 #IanFoxroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -368,7 +368,7 @@ footer {
 }
 
 #JackBronskyroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -397,7 +397,7 @@ footer {
 }
 
 #JimmyGroarkroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -435,7 +435,7 @@ footer {
 }
 
 #LouisSusserroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -463,7 +463,7 @@ footer {
 }
 
 #MikeFariasroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -472,7 +472,7 @@ footer {
 }
 
 #MikeMaolaroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -509,7 +509,7 @@ footer {
 }
 
 #ShailenDoshiroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -548,7 +548,7 @@ footer {
 }
 
 #TylerDuganroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
@@ -557,7 +557,7 @@ footer {
 }
 
 #WillDurkinroster {
-    background-image: url(../../img/bearlogo.png);
+    background-image: url(../../img/bearlogoroster.png);
     transition: 0.5s linear;
 }
 
