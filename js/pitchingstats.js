@@ -100,20 +100,20 @@ document.getElementById("AlexTorpeykperbb").innerHTML = CalcKperBB(AlexTorpeyp[1
 
 var BrettOConnorp = [
     0, /* W                 0*/
-    1, /* L                 1*/
-    2, /* G                 2*/
-    2, /* GS                3*/
+    2, /* L                 1*/
+    3, /* G                 2*/
+    3, /* GS                3*/
     1, /* CG                4*/
     0, /* SV                5*/
     0, /* SVO               6*/
-    9 + 2/3, /* IP decimal  7*/
-    9.2, /* IP clean        8*/
-    11, /* H                 9*/
-    12, /* R                 10*/
-    5, /* ER                11*/
+    15, /* IP decimal  7*/
+    15, /* IP clean        8*/
+    18, /* H                 9*/
+    18, /* R                 10*/
+    11, /* ER                11*/
     0, /* HR                12*/
-    7, /* BB                13*/
-    8, /* SO                14*/
+    12, /* BB                13*/
+    12, /* SO                14*/
     0, /* SHO               15*/
     0, /* HBP               16*/
     0, /* IBB               17*/
@@ -321,19 +321,19 @@ document.getElementById("IlanLindenfeldkperbb").innerHTML = CalcKperBB(IlanLinde
 var JasonShandlerp = [
     0, /* W                 0*/
     0, /* L                 1*/
-    1, /* G                 2*/
+    2, /* G                 2*/
     0, /* GS                3*/
     0, /* CG                4*/
     0, /* SV                5*/
     0, /* SVO               6*/
-    2 + 1/3, /* IP decimal  7*/
-    2.1, /* IP clean        8*/
-    2, /* H                 9*/
-    2, /* R                 10*/
-    0, /* ER                11*/
+    3 + 1/3, /* IP decimal  7*/
+    3.1, /* IP clean        8*/
+    6, /* H                 9*/
+    8, /* R                 10*/
+    2, /* ER                11*/
     0, /* HR                12*/
-    1, /* BB                13*/
-    5, /* SO                14*/
+    2, /* BB                13*/
+    6, /* SO                14*/
     0, /* SHO               15*/
     2, /* HBP               16*/
     0, /* IBB               17*/
@@ -375,20 +375,20 @@ document.getElementById("JasonShandlerkperbb").innerHTML = CalcKperBB(JasonShand
 
 var MarkJonesp = [
     1, /* W                 0*/
-    1, /* L                 1*/
-    2, /* G                 2*/
-    2, /* GS                3*/
-    0, /* CG                4*/
+    2, /* L                 1*/
+    3, /* G                 2*/
+    3, /* GS                3*/
+    1, /* CG                4*/
     0, /* SV                5*/
     0, /* SVO               6*/
     11, /* IP decimal  7*/
     11, /* IP clean        8*/
-    13, /* H                 9*/
-    9, /* R                 10*/
-    6, /* ER                11*/
-    0, /* HR                12*/
+    28, /* H                 9*/
+    18, /* R                 10*/
+    15, /* ER                11*/
+    1, /* HR                12*/
     2, /* BB                13*/
-    12, /* SO                14*/
+    17, /* SO                14*/
     0, /* SHO               15*/
     0, /* HBP               16*/
     0, /* IBB               17*/
@@ -486,19 +486,19 @@ document.getElementById("MikeMaolakperbb").innerHTML = CalcKperBB(MikeMaolap[14]
 var NickVotap = [
     0, /* W                 0*/
     0, /* L                 1*/
-    2, /* G                 2*/
+    4, /* G                 2*/
     0, /* GS                3*/
     0, /* CG                4*/
     0, /* SV                5*/
     0, /* SVO               6*/
-    4, /* IP decimal  7*/
-    4, /* IP clean        8*/
-    6, /* H                 9*/
-    6, /* R                 10*/
-    5, /* ER                11*/
+    5 + 2/3, /* IP decimal  7*/
+    5.2, /* IP clean        8*/
+    8, /* H                 9*/
+    7, /* R                 10*/
+    6, /* ER                11*/
     0, /* HR                12*/
     3, /* BB                13*/
-    3, /* SO                14*/
+    4, /* SO                14*/
     0, /* SHO               15*/
     0, /* HBP               16*/
     0, /* IBB               17*/
@@ -540,20 +540,20 @@ document.getElementById("NickVotakperbb").innerHTML = CalcKperBB(NickVotap[14],N
 
 var TomKesslerp = [
     0, /* W                 0*/
-    0, /* L                 1*/
-    1, /* G                 2*/
-    1, /* GS                3*/
+    1, /* L                 1*/
+    2, /* G                 2*/
+    2, /* GS                3*/
     0, /* CG                4*/
     0, /* SV                5*/
     0, /* SVO               6*/
-    3 + 2/3, /* IP decimal  7*/
-    3.2, /* IP clean        8*/
-    7, /* H                 9*/
-    4, /* R                 10*/
-    4, /* ER                11*/
+    5 + 2/3, /* IP decimal  7*/
+    5.2, /* IP clean        8*/
+    15, /* H                 9*/
+    17, /* R                 10*/
+    6, /* ER                11*/
     0, /* HR                12*/
-    4, /* BB                13*/
-    2, /* SO                14*/
+    6, /* BB                13*/
+    3, /* SO                14*/
     0, /* SHO               15*/
     0, /* HBP               16*/
     0, /* IBB               17*/
